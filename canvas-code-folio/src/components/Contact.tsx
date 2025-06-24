@@ -11,7 +11,7 @@ const Contact = () => {
     icon: Phone,
     label: "Phone",
     value: "+91 8086853909",
-    href: "tel:+919876543210"
+    href: "tel:+918086853909"
   }, {
     icon: MapPin,
     label: "Location",
@@ -90,7 +90,7 @@ const Contact = () => {
             </h2>
           </div>
           <p className="text-2xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            Ready to bring your vision to life? Get in touch with JAYAKRISHNAN J and let's create something extraordinary together.
+            Ready to bring your vision to life? Get in touch with me and let's create something extraordinary together.
           </p>
         </motion.div>
 
@@ -139,7 +139,43 @@ const Contact = () => {
         }} className="text-center">
             
             <div className="flex justify-center gap-8">
-              {socialLinks.map((social, index) => {})}
+              {socialLinks.map((social, index) => (
+                <a
+                  key={social.label}
+                  href={social.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={social.label}
+                  className={`transition-colors duration-300 ${social.color}`}
+                >
+                  <social.icon className="w-8 h-8" />
+                </a>
+              ))}
+            </div>
+            {/* Resume Download Buttons Centered Below */}
+            <div className="flex justify-center gap-4 mt-6">
+              <a
+                href="https://drive.google.com/file/d/1OcBz0-7ZTDTF0jjjJhiLQ6c46zCYX0MG/view?usp=sharing"
+                download
+                className="inline-flex items-center gap-2 px-6 py-2 bg-gradient-to-r from-pink-500 to-purple-500 hover:from-pink-600 hover:to-purple-600 text-white font-semibold rounded-full transition-all duration-300 text-lg shadow-lg hover:shadow-2xl"
+                aria-label="Download Graphic Design Resume"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 16v-8m0 8l-3-3m3 3l3-3m-9 5.25A2.25 2.25 0 015.25 19.5h13.5A2.25 2.25 0 0021 17.25v-10.5A2.25 2.25 0 0018.75 4.5H5.25A2.25 2.25 0 003 6.75v10.5z" />
+                </svg>
+                Graphic Design Resume
+              </a>
+              <a
+                href="https://drive.google.com/file/d/1iBrG2_Z-gJrzhsWPjhvT9KmmLL0RThHm/view?usp=sharing"
+                download
+                className="inline-flex items-center gap-2 px-6 py-2 bg-gradient-to-r from-cyan-500 to-purple-500 hover:from-cyan-600 hover:to-purple-600 text-white font-semibold rounded-full transition-all duration-300 text-lg shadow-lg hover:shadow-2xl"
+                aria-label="Download Developer Resume"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 16v-8m0 8l-3-3m3 3l3-3m-9 5.25A2.25 2.25 0 015.25 19.5h13.5A2.25 2.25 0 0021 17.25v-10.5A2.25 2.25 0 0018.75 4.5H5.25A2.25 2.25 0 003 6.75v10.5z" />
+                </svg>
+                Developer Resume
+              </a>
             </div>
           </motion.div>
 

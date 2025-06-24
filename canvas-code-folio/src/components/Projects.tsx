@@ -132,7 +132,7 @@ const Projects = () => {
             Featured Projects
           </motion.h2>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-            A showcase of JAYAKRISHNAN J's best work in graphic design and web development
+            A showcase of my best work in graphic design and web development
           </p>
         </motion.div>
 

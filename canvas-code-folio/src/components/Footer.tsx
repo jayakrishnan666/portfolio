@@ -26,7 +26,7 @@ const Footer = () => {
           {/* Copyright */}
           <div className="text-center md:text-right">
             <p className="text-gray-400 flex items-center justify-center md:justify-end gap-1 text-left px-0">
-              © {currentYear} Made  by JAYAKRISHNAN J
+              {/* © {currentYear} Made  by JAYAKRISHNAN J */}
             </p>
           </div>
         </div>

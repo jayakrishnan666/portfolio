@@ -53,7 +53,7 @@ const Hero = () => {
             </div>
             <div>
               <Button size="lg" variant="outline" className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white px-8 py-3 text-lg">
-                <a href="#contact">Get In Touch</a>
+                <a href="#contact">Download Resume</a>
               </Button>
             </div>
           </div>
