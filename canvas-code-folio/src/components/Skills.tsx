@@ -19,7 +19,7 @@ const Skills = () => {
   //   title: "5+ Years",
   //   subtitle: "Professional experience"
   // }];
-  const tools =  [ "Adobe Photoshop", "VS Code", "Git", "HTML", "CSS", "Python", "Django", "MySQL", "Canva","Figma  (beginner)", "logo design", "web designing", "graphic designing", "UI","MCA Student"];
+  const tools =  [ "Adobe Photoshop", "VS Code", "Git", "HTML", "CSS", "Python", "Django", "MySQL", "Canva","Figma  (beginner)", "logo design", "web designing", "graphic designing", "UI"];
   return <section id="about" className="py-20 bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 relative overflow-hidden">
       {/* Enhanced animated background */}
       <div className="absolute inset-0">

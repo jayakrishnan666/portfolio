@@ -63,7 +63,7 @@ const Projects = () => {
       id: 6,
       title: "BCA Books",
       category: "web-development",
-      image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&h=400&fit=crop",
+      image: "https://ik.imagekit.io/jfrxd48vxl/ChatGPT%20Image%20Jun%2024,%202025,%2009_45_36%20AM.png?updatedAt=1750738556262",
       description: "Created a portal for BCA students to access semester-wise notes and study materials.",
       tags: ["HTML", "CSS", "PHP", "MySQL"],
       link: "#",
