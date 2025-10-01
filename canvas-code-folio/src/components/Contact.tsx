@@ -155,7 +155,7 @@ const Contact = () => {
             {/* Resume Download Buttons Centered Below */}
             <div className="flex justify-center gap-4 mt-6">
               <a
-                href="https://drive.google.com/file/d/1OcBz0-7ZTDTF0jjjJhiLQ6c46zCYX0MG/view?usp=sharing"
+                href="https://drive.google.com/file/d/1RbuJ9YJrhk5whkaEiEW4gceeY6ttMtby/view?usp=drive_link"
                 download
                 className="inline-flex items-center gap-2 px-6 py-2 bg-gradient-to-r from-pink-500 to-purple-500 hover:from-pink-600 hover:to-purple-600 text-white font-semibold rounded-full transition-all duration-300 text-lg shadow-lg hover:shadow-2xl"
                 aria-label="Download Graphic Design Resume"
@@ -166,7 +166,7 @@ const Contact = () => {
                 Graphic Design Resume
               </a>
               <a
-                href="https://drive.google.com/file/d/1iBrG2_Z-gJrzhsWPjhvT9KmmLL0RThHm/view?usp=sharing"
+                href="https://drive.google.com/file/d/188oLoWxW5MP45vu355qOt8wKRCflila4/view?usp=drive_link"
                 download
                 className="inline-flex items-center gap-2 px-6 py-2 bg-gradient-to-r from-cyan-500 to-purple-500 hover:from-cyan-600 hover:to-purple-600 text-white font-semibold rounded-full transition-all duration-300 text-lg shadow-lg hover:shadow-2xl"
                 aria-label="Download Developer Resume"

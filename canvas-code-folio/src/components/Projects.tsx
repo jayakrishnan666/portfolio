@@ -68,6 +68,27 @@ const Projects = () => {
       tags: ["HTML", "CSS", "PHP", "MySQL"],
       link: "#",
       github: "#"
+    },
+
+    {
+      id: 7,
+      title: "Poster Design",
+      category: "web-development",
+      image: "https://ik.imagekit.io/jfrxd48vxl/work1.png?updatedAt=1759338448835",
+      description: "Creating poster for TECHZMATRIX solutions ",
+      tags: ["photoshop", "canva","freelancing"],
+      link: "#",
+      github: "#"
+    },
+    {
+      id: 8,
+      title: "Poster Design",
+      category: "web-development",
+      image: "https://ik.imagekit.io/jfrxd48vxl/work%202.png?updatedAt=1759338448575",
+      description: "Creating poster for  online computers shop ",
+      tags: ["photoshop", "canva","freelancing"],
+      link: "#",
+      github: "#"
     }
   ];
 
