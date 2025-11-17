@@ -73,9 +73,9 @@ const Projects = () => {
     {
       id: 7,
       title: "Poster Design",
-      category: "web-development",
+      category: "graphic-design",
       image: "https://ik.imagekit.io/jfrxd48vxl/work1.png?updatedAt=1759338448835",
-      description: "Creating poster for TECHZMATRIX solutions ",
+      description: "Social media posters ",
       tags: ["photoshop", "canva","freelancing"],
       link: "#",
       github: "#"
@@ -83,9 +83,19 @@ const Projects = () => {
     {
       id: 8,
       title: "Poster Design",
-      category: "web-development",
+      category: "graphic-design",
       image: "https://ik.imagekit.io/jfrxd48vxl/work%202.png?updatedAt=1759338448575",
-      description: "Creating poster for  online computers shop ",
+      description: "Social media posters",
+      tags: ["photoshop", "canva","freelancing"],
+      link: "#",
+      github: "#"
+    },
+    {
+      id: 9,
+      title: "Poster Design",
+      category: "graphic-design",
+      image: "https://ik.imagekit.io/jfrxd48vxl/pt.jpg",
+      description: "Social media posters ",
       tags: ["photoshop", "canva","freelancing"],
       link: "#",
       github: "#"
